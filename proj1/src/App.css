@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  color:white;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  height:50px;
+  background-color: rgba(56, 141, 211, 0.267);
+  z-index:10;
+  
+}
+#header {
+  /* background-color: azure; */
+  /* height: 40px; */
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  /* justify-content: space-between; */
+  margin-left: 20px;
+}
+#nav {
+  /* background-color: azure; */
+  height: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
+  filter: drop-shadow(3px 3px 4px rgb(0, 0, 0));
+  font-size: 18px;
+  font-weight: bold;
+  /* justify-content: space-between; */
+}
+
+.header-link {
+  margin-top: 20px;
+  margin-right: 20px;
+  padding-bottom: 5px;
+  /* height: 50px; */
+  
+}
+.header-link:hover {
+  border-bottom: 3px solid white; 
+}
+
+#logo {
+  padding:10px 10px;
+  width: 50px;
+}
+
+.header-text {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(5px 6px 4px rgba(0, 0, 0, 0.657));
+  font-weight:bold;
+  
+}
+
+.App hr {
+  width: 90%;
+}
+
+.hero-image-container{
+  background: url("https://previews.123rf.com/images/fedcophoto/fedcophoto2002/fedcophoto200201503/141243459-portrait-of-young-freelancer-guy-sitting-on-sofa-with-cup-of-coffee-in-hand-and-laptop-on-legs-grey-.jpg");
+  background-position: center;
+  background-size: cover;
+  height: calc(100vh - 0px);
+  margin-top: -50px;
+}
+
+.test {
+  width:200px;
+  height:200px;
+  overflow: hidden;
+}
+.test img {
+  height:200px;
+  width: auto;
+}
+
+#blog-frame {
+  width: 90%;
+  height:600px;
+}
+
+.blog-card-container {
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.blog-card {
+  height: 225px;
+  border: solid thin;
+  border-radius: 15px;
+  border-color: rgb(193, 193, 193);
+  overflow: hidden;
+}
+
+.blog-card h7 {
+  font-size: small;
+  color: gray;
+  margin-top: -20px;
+  font-weight: bold;
+}
+.blog-card h4 {
+
+  margin-top: 10px;
+}
+.blog-card-img-div {
+  width: 275px;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+  border-bottom: solid thin;      
+  /* border: solid thin; */
+}
+
+.blog-card-img-div img {
+  width: 375px;
+  height: auto;
+  margin-left: -70px;
+  
+
+  /* position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0; */
+    
+}
+
+.blog-card-body {
+  text-align: left;
+  width: 225px;
+  padding: 15px 15px;
+  margin-top: -15px;
+  display:flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
